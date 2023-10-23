@@ -1,0 +1,120 @@
+/* External css */
+/* Color tag set color on foreground */
+
+h1{
+    color: yellow;
+}
+
+button{
+    color: blue;
+    background-color: aqua;
+}
+
+body{
+    background-color: orange;
+}
+
+/* color system */
+/* rgb, hex and hsl */
+
+/* rgb range 0 - 255 */
+/* hex range 00 - ff, short form for writing rgb */
+
+p{
+    color: rgb(255, 255, 0);
+}
+
+h2{
+    color: #00f0fc;
+}
+
+/* Selectors */
+/* *{} Universal selector */
+/* h1{} Element selector */
+/* #myId Id selector */
+/* .myClass Class selector */
+
+#myId{
+    color: yellow;
+}
+
+
+/* class selector is used if we want to set same property for multiple elements */
+
+.myClass{
+    color: blue;
+}
+
+/* Applying same property to multiple elements at same time */
+h1, h2, h3{
+    color: red;
+}
+
+/* Text alignment */
+/* left, right and centre */
+/* Css3: start and end */
+
+/* Note: Alignment changes relative to parent tag, not the complete document */
+
+p{
+    text-align: right;
+}
+
+/* Text decoration */
+#id1{
+    text-decoration: underline;
+    text-decoration: overline;
+    text-decoration: blue wavy line-through;
+}
+
+/* Removing underline from link using text decoration */
+
+a{
+    text-decoration: none;
+}
+
+/* font weight tells how light and dark text is */
+
+/* normal, bold, bolder, lighter */
+
+/* 100 - 900 */
+
+#h1{
+    font-weight: normal;
+}
+
+#h2{
+    font-weight: bold;
+}
+
+#h3{
+    font-weight: bolder;
+}
+
+#h4{
+    font-weight: lighter;
+}
+
+/* Font family */
+/* Fall back mechanism, if a font family not supported by any brower, it tries another one */
+
+#one{
+    font-family: 'Courier New', Courier, monospace, 'Times New Roman', Times, serif;
+}
+
+#para1{
+    font-size: 50px;
+}
+
+/* Line height - space between lines */
+
+/* Text transform */
+/* Uppercase, lowercase */
+
+#para2{
+    text-align: left;
+    line-height: 50px;
+
+    text-transform: capitalize;
+}
+
